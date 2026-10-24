@@ -1,0 +1,14 @@
+{
+  "name": "archflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A self-hosted architecture diagram workspace",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
